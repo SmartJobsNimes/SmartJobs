@@ -25,10 +25,11 @@ body
 	line-height: 2em;
 
 	text-align: center;
-	margin: 1em 0em 2em 0em;
+	margin: 1em 0em 1.3em 0em;
 	display: block;
 	
 	background-color : antiquewhite;
+	font-family: Calibri;
 }
 
 .login
@@ -60,7 +61,7 @@ body
 	vertical-align: middle;
 	line-height: 1em;
 
-	margin: 0.5em auto 1em auto;
+	margin: 1em auto 1em auto;
 
 	color: darkred;
 	border-style:solid;
