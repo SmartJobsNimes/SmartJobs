@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+
+	<meta charset="utf-8" />
+
+	<!--
+		Customize the content security policy in the meta tag below as needed.
+		Add 'unsafe-inline' to default-src to enable inline JavaScript.
+		For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+	-->
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap:
+		  https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+	<title>SmartJobsAlpha</title>
+
+	<!-- SmartJobsAlpha references -->	
+	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link href="css/login.css" rel="stylesheet" />
+
+</head>
+
+
+<body>
+
+	<img id="logo" src="images/smart_jobs_logo.jpg" alt="Logo SmartJobs" />
+
+	<p class="choixLogin">J'ai déja un compte :</p>
+
+	<div class="form-group login">
+		<label for="usr">Pseudo / Email :</label>
+		<input type="text" class="form-control texteEntre" id="usr">
+	</div>
+	<div class="form-group login">
+		<label for="pwd">Mot de passe :</label>
+		<input type="password" class="form-control texteEntre" id="pwd">
+	</div>
+
+	<div class="groupeBouton">
+		<a href="login.html" class="btn btn-primary bouton">Connection</a>
+	</div>
+
+	<p class="choixLogin">Je n'ai pas encore de compte :</p>
+
+	<div class="groupeBouton">
+		<a href="login.html" class="btn btn-primary bouton">Créer un compte</a>
+	</div>
+
+	<!--<button type="button" class="ChoixLogin">J'ai un compte</button>-->
+	<!--<button type="button" class="ChoixLogin">Je n'ai pas de compte</button>-->
+
+</body>
+</html>

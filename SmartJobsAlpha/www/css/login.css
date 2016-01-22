@@ -1,0 +1,83 @@
+﻿
+body
+{
+	background-color:darkred;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#logo
+{
+	width: 100%;
+	height: auto;
+	max-height: 10em;
+	max-width: 20em;
+	margin: 2.5em auto 3em auto;
+
+	display: block;
+	border-radius: 1.5em 1.5em 1.5em 1.5em;
+}
+
+.choixLogin
+{
+	font-size: large;
+	font-weight: 600;
+	min-height: 2em;
+	line-height: 2em;
+
+	text-align: center;
+	margin: 1em 0em 2em 0em;
+	display: block;
+	
+	background-color : antiquewhite;
+}
+
+.login
+{
+	/*margin: 0em 0em 0em 0em;*/
+	margin: 1em auto 1em auto;
+	max-width: 15em;
+	font-size: large;
+
+	color: antiquewhite;
+}
+
+.texteEntre
+{
+	font-size: 1.2em;
+}
+
+.groupeBouton
+{
+	text-align: center;
+	margin: 0;
+}
+
+.bouton
+{
+	font-size: 1.8em;
+	font-weight: 600;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 1em;
+
+	margin: 0.5em auto 1em auto;
+
+	color: darkred;
+	border-style:solid;
+	border-radius: 0em 1em 0em 1em;
+	background-color : white;
+	border-color: #038779;
+	border-width: 0.10em;
+}
+
+.bouton:focus
+{
+	outline:none;
+}
+
+.bouton:hover
+{
+	background-color: #038779;
+	border-color: #038779;
+	color: darkred;
+}
