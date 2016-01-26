@@ -67,7 +67,7 @@ body
 	border-style:solid;
 	border-radius: 0em 1em 0em 1em;
 	background-color : white;
-	border-color: #038779;
+	border-color: #04c8b5;
 	border-width: 0.10em;
 }
 
@@ -76,9 +76,16 @@ body
 	outline:none;
 }
 
-.bouton:hover
+/*shit happends here*/
+.bouton:active
 {
-	background-color: #038779;
-	border-color: #038779;
-	color: darkred;
+	color: yellow;
+	background-color: yellow;
+}
+
+.bouton:hover
+{	
+	background-color: #04c8b5;
+	border-color: #04c8b5;
+	color: #dd0000;
 }
